@@ -1,0 +1,21 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.blockshooter'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.example.blockshooter'
+        minSdk 23
+        targetSdk 34
+        versionCode 3
+        versionName '1.2'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
